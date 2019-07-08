@@ -16,8 +16,8 @@ body {
 /*
 #render { border-color: white; border-size: 1px; }
 */
-#first {
- opacity: 0.76;
+#first,.first {
+ opacity: 0.56;
  background: lightpink;
  position: sticky;
  /* right: 50%; margin-right: -382px; */
