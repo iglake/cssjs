@@ -1,7 +1,7 @@
 body {
   background-image: linear-gradient(to bottom right, magenta,blue);
-  background-image: URL(http://gateway.ipfs.io/ipfs/zb2rhjMyoQJAYz86WErVjdhrAer4QT5RfC8r16tef6tVDwUUq);
-  background-image: URL(http://cloudflare-ipfs.com/ipfs/z8bvj2192MKbB7bTgLrPBvhMLmid1HpAM/abspurple.jpg);
+  background-image: URL(https://gateway.ipfs.io/ipfs/zb2rhjMyoQJAYz86WErVjdhrAer4QT5RfC8r16tef6tVDwUUq);
+  background-image: URL(https://cloudflare-ipfs.com/ipfs/z8bvj2192MKbB7bTgLrPBvhMLmid1HpAM/abspurple.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -16,6 +16,15 @@ body {
 /*
 #render { border-color: white; border-size: 1px; }
 */
+#first {
+ opacity: 0.76;
+ background: lightpink;
+ position: sticky;
+ /* right: 50%; margin-right: -382px; */
+
+ top: 10px;
+}
+
 
 #banner {
   /* left: -6px; */
@@ -28,7 +37,7 @@ body {
   background-size: auto 100%;
   background-position: right bottom;
   background-repeat: no-repeat;
-  opacity: none;
+  opacity: -1;
   /* position: fixed; */
   color: red;
 }
@@ -75,7 +84,7 @@ img { max-width: 90%; max-height: 720px; margin: auto;}
   font-family: 'Loved by the King';
   font-style: normal;
   font-weight: 400;
-  src: local('Loved by the King'), local('LovedbytheKing'), url(http://fonts.gstatic.com/s/lovedbytheking/v7/Gw6gwdP76VDVJNXerebZxUMeRXUF2MiKn3A.woff2) format('woff2');
+  src: local('Loved by the King'), local('LovedbytheKing'), url(https://fonts.gstatic.com/s/lovedbytheking/v7/Gw6gwdP76VDVJNXerebZxUMeRXUF2MiKn3A.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
