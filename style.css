@@ -1,0 +1,91 @@
+body {
+  background-image: linear-gradient(to bottom right, magenta,blue);
+  background-image: URL(https://cdn.statically.io/img/hardbin.com/ipfs/zb2rhjMyoQJAYz86WErVjdhrAer4QT5RfC8r16tef6tVDwUUq);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  /*
+  background-size: cover;
+  background-size: 680px auto;
+  */
+  background-size: 100% auto;
+  /* min-height: 100%; */
+}
+.layer { display: none; }
+
+#banner {
+  left: -6px;
+  padding: 12px 0 12px 24px;
+  width: 98%; margin: auto;  
+  margin-bottom: 0; top:0; z-index: -1;
+  background-color: black; /* rgba(20,20,20,0.5); */
+  background-image: linear-gradient(to right, black,darkblue);
+  background-size: auto 100%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  opacity: 1.0;
+  position: fixed;
+  color: blue;
+}
+div {
+ position: relative;
+ max-width: 680px;
+ margin-left: 100px;
+ margin: auto;
+
+ /*
+ background-image: linear-gradient(to bottom right, white,darkgrey);
+ */
+ opacity: 0.96;
+
+ padding: 2em;
+ border-radius: 8px;
+ box-shadow:2px 10px 4px rgba(0, 0, 0, 0.40);
+ font-size: 14px;
+ text-align: justify;
+}
+h1,h2,h3,h4,h5 { text-align: left; }
+
+div.content {
+ width: 80%;
+ padding: 3em;
+
+ background: lightyellow;
+ background-image: linear-gradient(to bottom left, white,lightblue);
+  border-radius: 8px;
+  box-shadow:2px 16px 5px rgba(0, 0, 0, 0.40);
+}
+
+pre { overflow: auto }
+
+img { max-width: 90% } 
+
+
+@font-face { /* code39 by Dr. David Allais and Ray Stevens of Intermec in 1974. */
+      font-family: "Barcode 39 Text";
+      font-style: normal;
+      font-weight: 400;
+      src: url("https://fonts.gstatic.com/l/font?kit=sJoa3KhViNKANw_E3LwoDXvs5Un0HQ1vT-030Aw50_riSWzIUN2y4R7myIoll_6NvZfoMkH4nprSLcJNkI0ZGl68WskbnJn2rra7Iy_nWZs2AAfeCSkKYKiF4_s16Zi1X6BMAohd4usGxzAYOSpoqFaS0oDRbzdP-SB60JrrGS5y331NyX3pmfdUwSNNOYsYGoFiyQ&skey=a91ebaf074a37bd0&v=v5") format("woff2");
+}
+/* latin */
+@font-face {
+  font-family: 'Loved by the King';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Loved by the King'), local('LovedbytheKing'), url(http://fonts.gstatic.com/s/lovedbytheking/v7/Gw6gwdP76VDVJNXerebZxUMeRXUF2MiKn3A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+#sig {
+      font-family: "Loved by the King";
+      font-size: 2em;
+}
+
+.bcode39 {
+      font-family: "Barcode 39 Text";
+      font-size: 200%;
+}
+
+
+
+
