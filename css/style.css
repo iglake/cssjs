@@ -17,14 +17,13 @@ body {
 #render { border-color: white; border-size: 1px; }
 */
 #first,.first {
- opacity: 0.56;
- background: lightpink;
+ opacity: 0.96;
+ color: white; background: rgba(1,0,2,.6); opacity: 1.0;
+ /* background: lightpink; */
  position: sticky;
  /* right: 50%; margin-right: -382px; */
-
  top: 10px;
 }
-
 
 #banner {
   /* left: -6px; */
