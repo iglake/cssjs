@@ -20,5 +20,6 @@ rev=$(git rev-parse --short HEAD)
 git tag -f -a $ver -m "tagging $rev on $date"
 echo "$ver: $date ($rev)" > VERSION
 find .git/objects -type f -exec ipfs dag put --format=git --input-enc=zlib {} \; > hashes
+git push --delete origin $ver
 git push --tags
 fi
