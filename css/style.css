@@ -1,6 +1,7 @@
 body {
   background-image: linear-gradient(to bottom right, magenta,blue);
   background-image: URL(https://gateway.ipfs.io/ipfs/zb2rhjMyoQJAYz86WErVjdhrAer4QT5RfC8r16tef6tVDwUUq);
+  background-image: URL(https://cloudflare-ipfs.com/ipfs/z8bvj1wuQnSUvGGwjQoZYBWLxPM9ut5U6/abspurple.jpg);
   background-image: URL(https://cloudflare-ipfs.com/ipfs/uAXAAMxItChgBcBEUwg3lDSIaAsZsl3TKfSJGL6lDQHgSDWFic3B1cnBsZS5qcGcYmpAGCgIIAQ/abspurple.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
