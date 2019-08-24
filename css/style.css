@@ -1,7 +1,7 @@
 body {
   background-image: linear-gradient(to bottom right, magenta,blue);
   background-image: URL(https://cloudflare-ipfs.com/ipfs/uAXAAMxItChgBcBEUwg3lDSIaAsZsl3TKfSJGL6lDQHgSDWFic3B1cnBsZS5qcGcYmpAGCgIIAQ/abspurple.jpg);
-  background-image: URL(//cdn.jsdelivr.net/gh/iglake/cssjs@master/assets/abspurple.jpg)
+  background-image: URL(//cdn.jsdelivr.net/gh/iglake/cssjs@master/assets/abspurple.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

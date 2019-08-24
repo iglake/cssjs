@@ -1,6 +1,5 @@
 # Mot du Jour (motd)
 
-
 if you have to tell something to the world what would you tell ?
 
 
