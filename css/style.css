@@ -17,7 +17,7 @@ body {
 /*
 #render { border-color: white; border-size: 1px; }
 */
-#first,.first {
+#hero,#first,.first {
  opacity: 0.96;
  color: white; background: rgba(1,0,2,.6)!important; opacity: 1.0;
  /* background: lightpink; */
@@ -52,7 +52,7 @@ div {
  opacity: 0.96;
 
  padding: 2em;
- border-radius: 8px;
+ border-radius: 5px;
  box-shadow:2px 10px 4px rgba(0, 0, 0, 0.40);
  font-size: 14px;
  text-align: justify;
