@@ -32,6 +32,7 @@ div {
  position: relative;
  margin-left: 100px;
  margin: auto;
+ color: rgb(2,3,5);
 
  /* background-image: linear-gradient(to bottom right, white,darkgrey); */
  opacity: 0.96;
