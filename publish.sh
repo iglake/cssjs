@@ -2,7 +2,7 @@
 
 # vim: nospell
 git pull
-find . -name \*.org -delete
+find . -name \*~1 -delete
 tic=$(date +%s)
 spot=$(perl -S spot.pl | ipfs add -Q --hash sha1)
 echo spot: $spot
