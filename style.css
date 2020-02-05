@@ -13,6 +13,13 @@ body {
 }
 .layer { display: none; }
 
+#br-stamp {
+  position: fixed;
+  bottom: 0;  right: 0;
+  width: 32px;
+  opacity: 0.8;
+}
+
 #banner {
   left: -6px;
   padding: 12px 0 12px 24px;

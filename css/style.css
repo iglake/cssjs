@@ -7,10 +7,10 @@ body {
   background-position: center;
   /*
   background-size: cover;
-  background-size: 680px auto;
-  background-size: 100% auto;
+  background-size: 680px, auto;
+  background-size: 100%, auto;
   */
-  background-size: cover 100%;
+  background-size: cover, 100%;
   /* min-height: 100%; */
   color: darkgrey;
 }
@@ -18,9 +18,10 @@ body {
 /*
 #render { border-color: white; border-size: 1px; }
 */
+img#logo { max-height: 280px; }
 #hero,#first,.first {
  opacity: 0.96;
- color: white;
+ color: lightgrey!important;
  background: rgba(1,0,2,.6)!important; opacity: 1.0;
  /* background: lightpink; */
  position: sticky;
@@ -33,9 +34,12 @@ body {
  margin: auto;
  padding: 2em;
  color: rgb(2,3,5);
- background: lightblue;
- background-image: linear-gradient(to bottom left, white,lightblue);
- opacity: 0.96;
+ background: lightgreen;
+ background-image: linear-gradient(to bottom left, white,lightgreen);
+ opacity: 0.98;
+}
+
+.shadow {
  border-radius: 4px;
  box-shadow:2px 20px 8px rgba(0, 0, 0, 0.40);
 }
