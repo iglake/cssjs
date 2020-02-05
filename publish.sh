@@ -19,6 +19,7 @@ perl -pe "s,/ipfs/(:?z6cYN|Qm)[^/\" ]+,/ipfs/$qm," index.htm~ > index.htm
 rm -f index.htm~
 eval $($HOME/bin/version index.htm | eyml)
 ver=$scheduled
+v=${ver#v}
 # ------------------------------------------------------------
 if git commit -a -m "publishing on $tic for $ver"; then
 date=$(date +%D)
@@ -29,5 +30,7 @@ find .git/objects -type f -exec ipfs dag put --format=git --input-enc=zlib {} \;
 echo "$ver: $date ($rev) $version" > VERSION
 git push --delete origin $ver
 git push --tags
+echo https://www.jsdelivr.com/package/gh/iglake/cssjs?version=$v
+echo https://cdn.jsdelivr.net/gh/iglake/cssjs@$v/
 fi
 # ------------------------------------------------------------
