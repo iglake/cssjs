@@ -19,15 +19,6 @@ body {
 #render { border-color: white; border-size: 1px; }
 */
 img#logo { max-height: 280px; }
-#hero,#first,.first {
- opacity: 0.96;
- color: lightgrey!important;
- background: rgba(1,0,2,.6)!important; opacity: 1.0;
- /* background: lightpink; */
- position: sticky;
- /* right: 50%; margin-right: -382px; */
- top: 10px;
-}
 div.content {
  position: relative;
  margin-left: 100px;
@@ -36,6 +27,15 @@ div.content {
  background: lightgreen;
  background-image: linear-gradient(to bottom left, white,lightgreen);
  opacity: 0.98;
+}
+div #hero,#first,.first {
+ opacity: 0.96;
+ color: lightgrey!important;
+ background: rgba(1,0,2,.6)!important; opacity: 1.0;
+ /* background: lightpink; */
+ position: sticky;
+ /* right: 50%; margin-right: -382px; */
+ top: 10px;
 }
 
 .shadow {
@@ -54,6 +54,12 @@ div.content {
  padding: 3em;
 
 }
+div.footer {
+ margin: auto;
+ padding: 0.5em 3em 0 3em;
+ background-color: transparent;
+}
+
 
 @media screen and (orientation:portrait) {
 div { width: calc(100vw - 4px); }
