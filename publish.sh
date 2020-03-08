@@ -31,6 +31,6 @@ echo "$ver: $date ($rev) $version" > VERSION
 git push --delete origin $ver
 git push --tags
 echo https://www.jsdelivr.com/package/gh/iglake/cssjs?version=$v
-echo https://cdn.jsdelivr.net/gh/iglake/cssjs@$v/
+echo https://cdn.jsdelivr.net/gh/iglake/cssjs@$rev/
 fi
 # ------------------------------------------------------------
